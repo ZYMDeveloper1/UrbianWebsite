@@ -1,0 +1,57 @@
+.Getintouch {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.Getintouch_min h6 {
+  padding-top: 55px;
+  padding-bottom: 45px;
+  font-weight: bold;
+}
+
+.Getintouch_min h4 {
+  font-weight: 700;
+}
+
+.Getintouch_min p {
+  margin-bottom: 0px !important;
+}
+
+.Getintouch_min a {
+  text-decoration: underline;
+  position: relative;
+  z-index: 3;
+}
+
+.Getintouch_min a:before {
+  content: '';
+  position: absolute;
+  height: 10px;
+  width: 100%;
+  left: 0;
+  bottom: 5px;
+  background: #fefc9e;
+  -webkit-transform: skew(-30deg);
+  transform: skew(-30deg);
+  border: 0px;
+  z-index: -2;
+}
+
+@media (max-width: 769px) {
+  .form-div {
+    float: left;
+    padding-top: 100px;
+    width: 100%;
+  }
+  .nextup .form-group {
+    width: 72%;
+  }
+  .Getintouch {
+    border-top: 0px !important;
+    padding-top: 50px;
+  }
+  .nextup {
+    padding-top: 60px;
+    padding-bottom: 70px;
+  }
+}

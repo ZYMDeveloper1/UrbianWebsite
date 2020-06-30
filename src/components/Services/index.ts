@@ -1,0 +1,7 @@
+export { default as Hero } from './Hero'
+export { default as Sections } from './Sections'
+export { default as Network } from './Network'
+export { default as Topsection } from './Topsection'
+export { default as Worksection } from './Worksection'
+export { default as Servicesection } from './Servicesection'
+export { default as Projecthead } from './Projecthead'

@@ -1,0 +1,12 @@
+.why-urbian strong {
+  display: block;
+  padding-bottom: 25px;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+@media (max-width: 769px) {
+  .why-urbian {
+    padding-bottom: 60px;
+  }
+}

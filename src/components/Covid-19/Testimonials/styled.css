@@ -1,0 +1,60 @@
+.Testimonials-slider span {
+  font-size: 1.2em;
+  display: block;
+}
+
+.Testimonials-slider .carousel-indicators li {
+  background-color: #bdbbbb;
+  width: 11px;
+  height: 11px;
+  border-radius: 100px;
+  border: 0px;
+  margin-left: 6px;
+  margin-right: 6px;
+}
+
+.covid-div .Testimonials-slider .carousel-indicators .active {
+  background-color: #000;
+}
+
+.Testimonials-slider .carousel-indicators {
+  bottom: -70px;
+  margin-bottom: 0px;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  width: 62px;
+}
+
+.Testimonials-slider .carousel-control-next-icon {
+  background: url(../../../assets/images/arrow-right.jpg) no-repeat left top !important;
+  width: 62px;
+  height: 62px;
+}
+
+.Testimonials-slider .carousel-control-prev-icon {
+  background: url(../../../assets/images/arrow-left.jpg) no-repeat left top !important;
+  width: 62px;
+  height: 62px;
+  left: -124px;
+}
+
+.services_min .Testimonials-slider .carousel-control-next-icon {
+  background: url(../../../assets/images/arrow-right2.jpg) no-repeat left top !important;
+  width: 62px;
+  height: 62px;
+}
+
+.services_min .Testimonials-slider .carousel-control-prev-icon {
+  background: url(../../../assets/images/arrow-left2.jpg) no-repeat left top !important;
+  width: 62px;
+  height: 62px;
+}
+
+.covid-testimonial .carousel-control-prev {
+  display: none;
+}
+.covid-testimonial .carousel-control-next {
+  display: none;
+}

@@ -1,0 +1,96 @@
+.blog_post .react-tabs__tab:hover span {
+  border-bottom: 2px solid #000 !important;
+  transition: border-bottom 0.3s;
+}
+
+.blog_post .primary-categories .react-tabs__tab:nth-child(2):hover span {
+  border-bottom: 2px solid red !important;
+}
+
+.blog_post .react-tabs__tab-list {
+	margin: 0 !important;
+}
+
+.blog_post .react-tabs__tab {
+  width: auto;
+  padding: 0 20px !important;
+  border: 0 !important;
+  white-space: nowrap;
+  background: none !important;
+}
+
+.blog_post .react-tabs__tab:first-of-type {
+	padding-left: 0 !important;
+}
+
+.blog_post .react-tabs__tab span {
+	white-space: nowrap;
+	border-bottom: 2px solid #fff !important;
+	transition: border-bottom 0.3s;
+	padding: 8px;
+	display: inline-block;
+	padding: 10px 0;
+}	
+
+.blog_post .primary-categories .react-tabs__tab:nth-child(2) span {
+  color: red;
+}
+
+.blog_post .react-tabs__tab--selected::before {
+  display: none;
+}
+
+.blog_post .react-tabs__tab--selected span {
+  background-color: transparent !important;
+  color: #000 !important;
+  border-bottom: 2px solid #000 !important;
+  font-weight: 800;
+}
+
+.blog_post .primary-categories .react-tabs__tab:nth-child(2).react-tabs__tab--selected span {
+  color: red !important;
+  border-color: red !important;
+}
+
+.blog_post .tab-top-sect {
+  background-color: transparent;
+  padding: 0 0 5em 0;
+  color: #030303;
+}
+
+.top-post {
+  margin-bottom: 0px;
+}
+
+@media (min-width: 992px) {
+	.top-post {
+	  padding: 3em 3em 3em 30px !important;
+	  margin-top: -200px;
+	  background-color: #fff;
+	}
+
+}
+
+@media (max-width: 991.98px) {
+	.top-post {
+		padding-top: 30px;
+	}
+}	
+
+.blog_post .card-deck {
+  padding-top: 30px;
+}
+
+.blog_post .card-body {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.blog_post .card-title {
+  font-size: 1.85em;
+}
+
+.tablist-min {
+	width: 100%;
+	overflow: scroll;
+}

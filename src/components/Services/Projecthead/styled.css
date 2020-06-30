@@ -1,0 +1,13 @@
+.proejcthead h2 {
+  font-size: 2.04em;
+  font-weight: 400;
+  text-align: center;
+  padding-bottom: 30px;
+  line-height: 45px !important;
+}
+
+.proejcthead span {
+  font-size: 1.1em;
+  display: block;
+  line-height: 25px;
+}

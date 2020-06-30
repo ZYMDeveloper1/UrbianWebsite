@@ -1,0 +1,14 @@
+
+.contactDetails h5 { font-weight: 700; margin-bottom: 15px; }
+.contactDetails li:not(:last-of-type) { margin-bottom: 4px; }
+.contactDetails a.text-underline { text-decoration: underline; }
+
+@media (max-width: 767.98px) {
+	.contactDetails .col-lg-3:not(:last-of-type) {
+		margin-bottom: 3em;
+	}
+}
+
+@media(max-width:568px){
+	.tipTouch{ padding-top:50px; }
+}

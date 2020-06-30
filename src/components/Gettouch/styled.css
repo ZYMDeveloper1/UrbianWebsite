@@ -1,0 +1,75 @@
+.getintouch {
+  width: 100%;
+  background: #fefc66;
+}
+
+@media (max-width: 767.98px) {
+  .getintouch {
+    padding: 5em 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .getintouch {
+    padding: 4.5em 0;
+  }
+}
+
+.getintouch h2 {
+  font-weight: 800;
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  .getintouch ul {
+    width: 45%;
+  }
+}
+
+.getintouch ul {
+  list-style: none;
+  padding: 0;
+}
+
+.getintouch ul li {
+  list-style: none;
+  position: relative;
+  padding-left: 30px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.getintouch ul li::before {
+  content: ' ';
+  position: absolute;
+  background: url(../../assets/images/checkmark-icon.png) no-repeat;
+  width: 20px;
+  height: 20px;
+  left: 0px;
+  top: 5px;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.fRPwvC {
+  margin-left: 0.5em;
+  -webkit-transition: -webkit-transform 500ms cubic-bezier(0.2, 1, 0.2, 1);
+  -webkit-transition: transform 500ms cubic-bezier(0.2, 1, 0.2, 1);
+  transition: transform 500ms cubic-bezier(0.2, 1, 0.2, 1);
+}
+
+.iUBhrC:hover .styled__Arrow-fdeFVt {
+  -webkit-transform: translateX(0.25em);
+  -ms-transform: translateX(0.25em);
+  transform: translateX(0.25em);
+}
+
+@media (max-width: 767px) {
+  .get-touch ul {
+    width: 100%;
+  }
+}

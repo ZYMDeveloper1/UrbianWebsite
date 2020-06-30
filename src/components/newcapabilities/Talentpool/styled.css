@@ -1,0 +1,30 @@
+.talentpool {
+	text-align: left;
+	color: #fff;
+	background: #000;
+}
+
+@media (min-width: 768px) {
+	.talentpool .col-lg-9 .row:not(:last-of-type) div {
+	    margin-bottom: 6em;
+	}
+}
+
+@media (max-width: 767.98px) {
+	.talentpool .col-lg-9 .row div {
+	    margin-bottom: 5em;
+	}
+
+	.talentpool .col-lg-9 .row:last-of-type div:last-of-type {
+		margin-bottom: 0;
+	}
+}
+
+.talentpool svg, .talentpool img {
+	max-height: 50px;
+	margin-bottom: 30px;
+}
+
+.talentpool h5 {
+    margin-bottom: 15px;
+}

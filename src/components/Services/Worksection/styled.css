@@ -1,0 +1,15 @@
+@media (min-width: 768px) {
+	.how-deliver .col-lg-8 .row:not(:last-of-type) div {
+		margin-bottom: 5em;
+	}
+}
+
+@media (max-width: 767.98px) {
+	.how-deliver .col-lg-8 .row:not(:last-of-type) div {
+		margin-bottom: 3em;
+	}
+
+	.how-deliver .col-lg-8 .row:last-of-type div:first-of-type {
+		margin-bottom: 3em;
+	}
+}

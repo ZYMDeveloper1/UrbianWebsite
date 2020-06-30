@@ -1,0 +1,47 @@
+.startupinvestements {
+  background-color: #000;
+  color: #fff;
+}
+
+#clients h2, #investments h3 {
+  font-weight: 500;
+}
+
+.startupinvestements h6 {
+  font-weight: 400;
+  padding-top: 180px;
+  display: block;
+  max-width: 750px;
+  margin: 0px auto;
+}
+
+.startupinvestements small {
+  padding-top: 40px;
+  font-size: 1.2em;
+  display: block;
+}
+
+.startupinvestements a {
+  color: #fff !important;
+}
+
+@media (max-width: 769px) {
+  .startupinvestements h4 {
+    padding-top: 70px;
+  }
+  .startupinvestements p {
+    padding-top: 0px;
+  }
+}
+
+@media (max-width: 572px) {
+  .startupinvestements h6 {
+    font-size: 1.2em !important;
+    line-height: 1.7em !important;
+    padding-top: 80px;
+  }
+  .startupinvestements small {
+    font-size: 0.9em;
+    padding-top: 25px;
+  }
+}

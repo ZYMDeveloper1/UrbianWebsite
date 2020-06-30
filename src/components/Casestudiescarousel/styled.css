@@ -1,0 +1,99 @@
+.carousel-item a.iUBhrC, .casestudy-single a.iUBhrC {
+  font-weight: 700 !important;
+}
+
+.carousel-item {
+  padding-left: 30px;
+  padding-right: 30px; 
+}
+
+.Casestudiescarousel .carousel-indicators li {
+  background-color: #bdbbbb;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  border: 0px;
+  margin-left: 6px;
+  margin-right: 6px;
+}
+
+.Casestudiescarousel .carousel-indicators .active {
+  background-color: #ffff0082;
+}
+
+.Casestudiescarousel .carousel-indicators {
+  bottom: -70px;
+  margin-bottom: 0px;
+}
+
+.Casestudiescarousel span.type, .casestudy-single span.type {
+  display: inline-block;
+  width: 100%;
+  padding-bottom: 60px;
+}
+
+.Casestudiescarousel p a {
+  position: relative;
+  z-index: 2;
+  display: inline-block;
+  background-color: transparent;
+}
+
+.Casestudiescarousel p a:before {
+  content: '';
+  position: absolute;
+  height: 10px;
+  width: 100%;
+  left: 0;
+  bottom: 5px;
+  background-color: #fefc9e;
+  -webkit-transform: skew(-30deg);
+  transform: skew(-30deg);
+  border: 0px;
+  z-index: -2;
+}
+
+.carousel-control-next, .carousel-control-prev {
+  width: 62px;
+}
+
+.Casestudiescarousel .carousel-control-prev {
+  left: -65px;
+}
+
+.Casestudiescarousel .carousel-control-next {
+  right: -65px;
+}
+
+.Casestudiescarousel .carousel-control-next-icon {
+  background: url(../../assets/images/arrow-right.jpg) no-repeat left top !important;
+  width: 62px;
+  height: 62px;
+}
+
+.Casestudiescarousel .carousel-control-prev-icon {
+  background: url(../../assets/images/arrow-left.jpg) no-repeat left top !important;
+  width: 62px;
+  height: 62px;
+  left: -124px;
+}
+
+@media (max-width: 1200px) {
+  .Casestudiescarousel .carousel-control-next, .Casestudiescarousel .carousel-control-prev {
+    display: none;
+  }
+}
+
+@media (max-width: 990px) {
+  .Casestudiescarousel .carousel-control-next, .Casestudiescarousel .carousel-control-prev {
+    display: none;
+  }
+  .Casestudiescarousel span {
+    display: block;
+    padding-top: 45px;
+  }
+
+  .Casestudiescarousel h3 br {
+    display: none;
+  }
+}

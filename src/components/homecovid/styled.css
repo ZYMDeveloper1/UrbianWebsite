@@ -1,0 +1,23 @@
+.Homecovid-min {
+  background: #ffe2e0;
+}
+
+@media (max-width: 767.98px) {
+  .Homecovid-min {
+    padding: 5em 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .Homecovid-min {
+    padding: 8em 0;
+  }
+}
+
+.Homecovid-min h2 {
+  color: #ff0018;
+}
+
+.Homecovid-min a {
+  color: #a71400 !important;
+}

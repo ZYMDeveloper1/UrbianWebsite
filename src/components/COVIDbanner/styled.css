@@ -1,0 +1,26 @@
+.Homecovid-banner {
+  background: #ffcecc;
+  position: relative;
+  top: 0px;
+  width: 100%;
+  height: auto;
+  padding: 10px 0;
+  display: none;
+}
+
+.home-page .Homecovid-banner {
+	display: block !important;
+}
+
+.Homecovid-banner a {
+  color: #ab210d !important;
+  font-size: 0.89em;
+  font-weight: 600;
+  margin: 0 !important;
+}
+
+@media (max-width: 568px) {
+  .Homecovid-banner a {
+    font-size: 13px;
+  }
+}

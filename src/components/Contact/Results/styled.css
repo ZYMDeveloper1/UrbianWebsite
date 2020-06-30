@@ -1,0 +1,85 @@
+
+.blackBg {
+	background: #000;
+	color: #fff;
+}
+
+.smallteam-grid {
+    display: grid;
+}
+
+.smallteam-grid div:nth-child(2) {
+	grid-row-end: span 2;
+}
+
+@media (min-width: 768px) {
+	.smallteam-grid {
+	    grid-column-gap: 3rem;
+	    grid-template-rows: repeat(2, 1fr);
+	    grid-template-columns: repeat(3, 1fr);
+	    grid-template-areas: none;
+	}
+
+	.smallteam-grid div:nth-child(1) {	
+		margin-top: 3rem;
+	}
+
+	
+
+	.smallteam-grid div:nth-child(5) {
+	    margin-bottom: 3rem;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.smallteam-grid div:nth-child(3) {
+		margin-right: 3rem;
+   	 	margin-top: 3rem;
+	}
+
+	.smallteam-grid div:nth-child(4) {
+	    margin-left: 3rem;
+    	margin-bottom: 3rem;
+	}
+}
+
+@media (min-width: 992px) {
+	.smallteam-grid div:nth-child(3) {
+		margin-bottom: 3rem;
+	    margin-top: 5rem;
+	    margin-right: 10rem;
+	}
+
+	.smallteam-grid div:nth-child(4) {
+	    margin-top: 3rem;
+	    margin-bottom: 5rem;
+	    margin-left: 7.5rem;
+	}
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.smallteam-grid {
+	    grid-template-columns: repeat(2, 1fr);
+	    grid-row-gap: 3rem;
+	    display: grid;
+	    grid-column-gap: 3rem;
+	    grid-template: repeat(2, 1fr) repeat(3, 1fr) none;
+	    grid-template-rows: repeat(2, 1fr);
+	    grid-template-areas: none;
+	}
+
+	.smallteam-grid div:nth-child(3), .smallteam-grid div:nth-child(4) {
+		display: none;
+	}
+
+	.smallteam-grid div:nth-child(1), .smallteam-grid div:nth-child(5) {
+		margin: 0;
+	}
+}
+
+@media (max-width: 575.98px) {
+	.smallteam-grid div:nth-child(1), .smallteam-grid div:nth-child(3), .smallteam-grid div:nth-child(4), .smallteam-grid div:nth-child(5) {	
+		display: none;
+	}
+}
+

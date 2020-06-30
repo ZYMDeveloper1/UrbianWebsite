@@ -1,0 +1,16 @@
+.topimage {
+  padding: 0px 15px 60px;
+}
+
+.topimage a:hover {
+  background: rgba(255,255,0,.51);
+  border: 1px solid rgba(255,255,0,.51);
+  transition: border 0.3s, background 0.3s;
+}
+
+@media (max-width: 572px) {
+  .topimage {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+}

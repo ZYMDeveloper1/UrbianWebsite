@@ -1,0 +1,163 @@
+.complex-problems {
+  border-top: 1px solid #dddbbb;
+}
+
+.complex-problems a {
+  text-decoration: none;
+  font-weight: normal;
+}
+
+@media (max-width: 767.98px) {
+	.complex-problems a {
+		padding-top: 30px !important;
+		padding-bottom: 30px !important;
+	}
+
+	.complex-problems strong, .complex-problems h4 {
+	  font-size: 5em;
+	}
+}
+
+@media (min-width: 768px) {
+	.complex-problems a {
+		padding: 30px !important;
+	}
+
+	.complex-problems strong, .complex-problems h4 {
+	  font-size: 6.55em;
+	}
+}
+
+.complex-problems a:hover .figure svg {
+  -webkit-transform: translateX(0.25em);
+  transform: translateX(0.25em);
+}
+
+@media (min-width: 768px) {
+  .casestudy-block:first-child {
+    border-right: 1px solid #d4d3d4 !important;
+    border-bottom: 1px solid #d4d3d4 !important;
+  }
+
+	.complex-problems h5 {
+		font-size: 2.54em;
+	}
+
+
+  .casestudy-block:nth-child(2n) {
+    border-bottom: 1px solid #d4d3d4 !important;
+  }
+
+  .casestudy-block:after {
+    content: "";
+    display: block;
+    padding-bottom: 70%;
+  }
+
+  .casestudy-block .figure {
+    position: absolute;
+    width: 100%;
+    height: 70%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 10%;
+  }
+
+  .casestudy-block .flex-item {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+}
+
+@media (max-width: 767.98px) {
+  .casestudy-block {
+    border-bottom: 1px solid #d4d3d4 !important;
+  }
+
+	.complex-problems h5 {
+		font-size: 2em;
+	}
+
+  .casestudy-block .figure {
+    padding: 30px 0;
+  }
+
+  .casestudy-block .flex-item {
+    padding: 30px 0;
+  }
+}
+
+.casestudy-block {
+  text-align: center;
+  position: relative;
+}
+
+.complex-problems a .flex-item path, .complex-problems a .flex-item polygon {
+  fill: black;
+}
+
+.complex-problems a svg#liberty, .complex-problems a svg#diageo {
+  max-height: 50px;
+}
+
+.complex-problems a svg#spw {
+  max-height: 35px;
+}
+
+.complex-problems a svg#babylonstoren {
+  max-height: 80px;
+}
+
+.complex-problems strong, .complex-problems h4 {
+  font-weight: 500 !important;
+  display: block;
+  text-align: center;
+}
+
+.complex-problems span,
+.complex-problems p {
+  font-size: 1.35em;
+  font-weight: 500;
+}
+
+.complex-problems h5 {
+  font-weight: 500;
+  margin: 0;
+}
+
+.flex-container {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.flex-item {
+  -webkit-flex: 0 1 auto !important;
+  -ms-flex: 0 1 auto !important;
+  flex: 0 1 auto !important;
+}
+
+.letter-s1 {
+  letter-spacing: 2px;
+}
